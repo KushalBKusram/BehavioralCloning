@@ -18,7 +18,6 @@ Python 3 and above, OpenCV 3 or above, NumPy, MoviePy, TensorFlow, Keras, Flask.
 ### Training
 For training, the program assumes that training images and corresponding file with steering angles are present in "data"
 
-Training can be performed:
 ```python
 python model.py
 ```
