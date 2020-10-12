@@ -15,7 +15,22 @@ During training, images from three different camera angles (from the center, the
 Python 3 and above, OpenCV 3 or above, NumPy, MoviePy, TensorFlow, Keras, Flask. There might be certain dependencies that may not be present in your environment. Hence, it is recommended that you setup a new virtual environment with help of [requirements.txt](https://github.com/KushalBKusram/BehavioralCloning/blob/main/requirements.txt)
 
 ## Usage
-Please refer to my [article]() on Medium to get started with this repository.
+### Training
+For training, the program assumes that training images and corresponding file with steering angles are present in "data"
+
+Training can be performed:
+```python
+python model.py
+```
+
+### Runtime
+For runtime inference, start drive.py first and then enter autonomous mode in the simulator.
+
+```python
+python drive.py model.h5
+```
+
+For a detailed explanation, please refer to my [article]() on Medium to get started with this repository.
 
 ## License
 Licensed under the [MIT License](https://github.com/KushalBKusram/BehavioralCloning/blob/main/LICENSE).
