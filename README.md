@@ -29,7 +29,7 @@ For runtime inference, start drive.py first and then enter autonomous mode in th
 python drive.py model.h5
 ```
 
-For a detailed explanation, please refer to my [article]() on Medium to get started with this repository.
+For a detailed explanation, please refer to my [article](https://medium.com/@KushalBKusram/behavioral-cloning-a058631e21b2) on Medium to get started with this repository.
 
 ## License
 Licensed under the [MIT License](https://github.com/KushalBKusram/BehavioralCloning/blob/main/LICENSE).
