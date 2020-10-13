@@ -3,7 +3,7 @@
 ## Description
 A neural network designed to learn and clone car driving behavior in autonomous mode in Udacity Self Driving Car Simulator. The network is designed as a supervised regression problem between the car steering angles and road images from the car. The network is _ layers deep. The network predicts an angle for the car to manuever based on the input from camera in front of the car.
 
-During training, images from three different camera angles (from the center, the left and the right of the car are used.
+During training, images from three different camera angles i.e. from the center, the left and the right of the car are used.
 
 ## Documentation
 ### Project Directory
